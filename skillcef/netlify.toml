@@ -1,0 +1,7 @@
+[build]
+  publish = "skillcef"  # This is where Netlify will look for the final build output
+  functions = "skillcef"  # If you have serverless functions, set this accordingly
+
+[[plugins]]
+  package = "@netlify/plugin-python"
+  version = "latest"
