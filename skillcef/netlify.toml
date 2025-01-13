@@ -1,7 +1,7 @@
 [build]
-  publish = "skillcef"  # This is where Netlify will look for the final build output
-  functions = "skillcef"  # If you have serverless functions, set this accordingly
+  base = "skillcef"  # The folder containing the app.py and Netlify config
+  publish = "skillcef"  # Directory to serve files from (typically static or public folder)
+  functions = "skillcef"  # If you're using Python serverless functions
 
 [[plugins]]
   package = "@netlify/plugin-python"
-  version = "latest"
