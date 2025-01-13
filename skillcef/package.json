@@ -1,7 +1,4 @@
 {
   "name": "skillcef",
-  "version": "1.0.0",
-  "devDependencies": {
-    "@netlify/plugin-python": "^1.0.0"
-  }
+  "version": "1.0.0"
 }
